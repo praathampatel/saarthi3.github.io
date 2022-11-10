@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAARTHI</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+    <link  href="script.js">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header>
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <a href="#" class="logo"><span>S</span>AARTHI</a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="index2.html">malls</a>
+        <a href="index3.html">hospital</a>
+        <a href="index4.html">restraunts</a>
+        <a href="index5.html">college</a>
+        <a href="#review">review</a>
+        <a href="#contact">contact</a>
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+    </div>
+
+    <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="search here...">
+        <label for="search-bar" class="fas fa-search"></label>
+    </form>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- login form container  >
+
+<div class="login-form-container">
+
+    <i class="fas fa-times" id="form-close"></i>
+
+    <form action="">
+        <h3>login</h3>
+        <input type="email" class="box" placeholder="enter your email">
+        <input type="password" class="box" placeholder="enter your password">
+        <input type="submit" value="login now" class="btn">
+        <input type="checkbox" id="remember">
+        <label for="remember">remember me</label>
+        <p>forget password? <a href="#">click here</a></p>
+        <p>don't have and account? <a href="#">register now</a></p>
+    </form>
+
+</div>
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>adventure is worthwhile</h3>
+        <p>dicover new places with us, adventure awaits</p>
+        <a href="https://traveltriangle.com/blog/madhya-pradesh/bhopal/" class="btn">discover more</a>
+    </div>
+
+    <div class="controls">
+        <span class="vid-btn active" data-src="images/vid-1.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-2.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-3.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-4.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-5.mp4"></span>
+    </div>
+
+    <div class="video-container">
+        <video src="images/vid-1.mp4" id="video-slider" loop autoplay muted></video>
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- book section starts  -->
+
+<section class="book" id="book">
+
+    <h1 class="heading">
+        <span>b</span>
+        <span>h</span>
+        <span>o</span>
+        <span>p</span>
+        <span>a</span>
+        <span>l</span>
+        
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/book-img.svg" alt="">
+        </div>
+
+        <form action="">
+            <div class="inputBox">
+                <h3>FROM</h3>
+                <input type="text" placeholder="place name">
+            </div>
+            <div class="inputBox">
+                <h3>how many</h3>
+                <input type="number" placeholder="number of guests">
+            </div>
+            <div class="inputBox">
+                <h3>arrivals</h3>
+                <input type="date">
+            </div>
+            <div class="inputBox">
+                <h3>leaving</h3>
+                <input type="date">
+            </div>
+            <input type="submit" class="btn" value="BOOK">
+        </form>
+
+    </div>
+
+</section>
+
+<!-- book section ends -->
+
+<!-- packages section starts  -->
+
+<section class="packages" id="packages">
+
+    <h1 class="heading">
+        <span>T</span>
+        <span>O</span>
+        <span>U</span>
+        <span>R</span>
+        <span>I</span>
+        <span>S</span>
+        <span>T</span>
+        <span>P</span>
+        <span>L</span>
+        <span>A</span>
+        <span>C</span>
+        <span>E</span>
+        <span>S</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/van.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Upper Lake </h3>
+                <p>One of the most famous places in Bhopal, the Upper Lake, locally referred to as ‘Bhojtaal’ or ‘Bada Talab’, is the oldest man-made lake in India</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                
+                <a href="https://www.google.com/maps/place/Upper+Lake/@23.2409465,77.3284347,13z/data=!3m1!4b1!4m6!3m5!1s0x397c5d7f3abf155f:0xec0ea7199923d63e!8m2!3d23.2532367!4d77.3381855!16s%2Fm%2F02qfd76" class="btn">LOCATION</a>
+            </div>
+        </div>
+
+        <!--div class="box">
+            <img src="images/p-2.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> hawaii </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                
+                <a href="#" class="btn">LOCATION</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/p-3.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> sydney </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                
+                <a href="#" class="btn">LOCATION</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/p-4.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> paris </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                
+                <a href="#" class="btn">LOCATION</a>
+            </div>
+        </div-->
+
+        <div class="box">
+            <img src="images/masjid.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Moti Masjid </h3>
+                <p>One of the most interesting mosques in the country, Moti Masjid was built in 1862 by the most progressive and free-thinking woman of her time!</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                
+                <a href="https://www.google.com/maps/place/Moti+Masjid/@23.2556348,77.399028,15z/data=!4m6!3m5!1s0x397c681f09161d8b:0xe5f75339aa736bf4!8m2!3d23.2556348!4d77.399028!16s%2Fg%2F121qyp8q" class="btn">LOCATION</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/vihar.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Van Vihar National Park </h3>
+                <p>Sitting in close proximity to Upper Lake, the Van Vihar National Park is one of the unmissable tourist places in Bhopal. </p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                
+                <a href="www.google.com/maps/place/Van+Vihar,+Shymala+Hills,+Bhopal,+Madhya+Pradesh+462002/@23.2400098,77.3759026,17z/data=!3m1!4b1!4m6!3m5!1s0x397c5d528af5a649:0xcd343338876cf7c9!8m2!3d23.2400098!4d77.3759026!16s%2Fg%2F11hzxjxhcb" class="btn">LOCATION</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- packages section ends -->
+
+<!-- services section starts  -->
+
+<section class="services" id="services">
+
+    <h1 class="heading">
+        <span>s</span>
+        <span>e</span>
+        <span>r</span>
+        <span>v</span>
+        <span>i</span>
+        <span>c</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+
+    <div class="box-container">
+       
+        <div class="box">
+            <i class="fas fa-hotel"></i>
+            <h3>HOSPITALS</h3>
+            <p> A hospital is a health care institution providing patient treatment with specialized health science and auxiliary healthcare staff and medical equipment</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-utensils"></i>
+            <h3>RESTRAUNTS</h3>
+            <p> The flavors of the food of Bhopal burst in your mouth and it is almost like a culinary party inside.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-bullhorn"></i>
+            <h3>COLLEGES</h3>
+            <p>A college may be a degree-awarding tertiary educational institution, a part of a collegiate or federal university,!</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-globe-asia"></i>
+            <h3>MALLS</h3>
+            <p>A shopping mall (or simply mall) is a North American term for a large indoor shopping center, usually anchored by department stores.!</p>
+        </div>
+        <!--div class="box">
+            <i class="fas fa-plane"></i>
+            <h3>fastest travel</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore commodi earum, quis voluptate exercitationem ut minima itaque iusto ipsum corrupti!</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-hiking"></i>
+            <h3>adventures</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore commodi earum, quis voluptate exercitationem ut minima itaque iusto ipsum corrupti!</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- services section ends -->
+
+<!-- gallery section starts  -->
+
+<section class="gallery" id="gallery">
+
+    <h1 class="heading">
+        <span>g</span>
+        <span>a</span>
+        <span>l</span>
+        <span>l</span>
+        <span>e</span>
+        <span>r</span>
+        <span>y</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/g-7.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>bhoapal is a wonderful place to visit.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/b.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>bhoapal is a wonderful place to visit.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/c.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>bhoapal is a wonderful place to visit.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/d.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>bhoapal is a wonderful place to visit.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/e.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>bhoapal is a wonderful place to visit.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/masjid.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>bhoapal is a wonderful place to visit.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>bhoapal is a wonderful place to visit.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/h.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>bhoapal is a wonderful place to visit.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/i.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>bhoapal is a wonderful place to visit.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- gallery section ends -->
+
+<!-- review section starts  -->
+
+<section class="review" id="review">
+
+    <h1 class="heading">
+        <span>r</span>
+        <span>e</span>
+        <span>v</span>
+        <span>i</span>
+        <span>e</span>
+        <span>w</span>
+    </h1>
+
+    <div class="swiper-container review-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/pic1.png" alt="">
+                    <h3>anand swami</h3>
+                    <p>
+                        There are so many tourists places in bhopal, bhopal is known as the " city of lakes" as it has to may lakes. The most famous one is "bada talab". Bhopal has temples like the birla temple, jain temple, shidhivinayak temple, bhojpur temple and many more. It is the 16th largest city in india. Bhopal was elected as one of the first twenty indian cities to be developed as a smart city</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/pic2.png" alt="">
+                    <h3>john deo</h3>
+                    <p>bhoapal is a wonderful place to visit</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/pic3.png" alt="">
+                    <h3>john deo</h3>
+                    <p>bhoapal is a wonderful place to visit</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/pic4.png" alt="">
+                    <h3>john deo</h3>
+                    <p>bhoapal is a wonderful place to visit</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- review section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+    
+    <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/contact-img.svg" alt="">
+        </div>
+
+        <form action="">
+            <div class="inputBox">
+                <input type="text" placeholder="name">
+                <input type="email" placeholder="email">
+            </div>
+            <div class="inputBox">
+                <input type="number" placeholder="number">
+                <input type="text" placeholder="subject">
+            </div>
+            <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+            <input type="submit" class="btn" value="send message">
+        </form>
+
+    </div>
+    
+</section>
+
+<!-- contact section ends -->
+
+<!-- brand section  -->
+<section class="brand-container">
+
+    <div class="swiper-container brand-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="images/Saarthi.jpg" alt=""></div>
+            <!--div class="swiper-slide"><img src="images/2.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/3.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/4.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/5.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/6.jpg" alt=""></div-->
+        </div>
+    </div>
+
+</section>
+
+<!-- footer section  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>about us</h3>
+            <p>Saarthi is going to be a website  which will act as a helping hand for people , especially those who do not belong to that particular city or state 
+            </p>
+        </div>
+        <div class="box">
+            <h3>more locations</h3>
+            <a href="#">indore</a>
+            <a href="#">Ujjain</a>
+            <a href="#">jabalpur</a>
+            <a href="#">gwalior</a>
+        </div>
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="index.html">home</a>
+            <a href="index2.html">malls</a>
+            <a href="index3.html">hospital</a>
+            <a href="index4.html">restraunts</a>
+            <a href="index5.html">colleges</a>
+            <a href="#">review</a>
+            <a href="#">contact</a>
+        </div>
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="https://www.facebook.com/">facebook</a>
+            <a href="https://www.instagram.com/">instagram</a>
+            <a href="https://twitter.com/">twitter</a>
+            <a href="https://www.facebook.com/">linkedin</a>
+        </div>
+
+    </div>
+
+    <h1 class="credit"> created by <span> PRIYANSHU & PRATHAM </span> | all rights reserved! </h1>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="script.js"></script>
+
+</body>
+</html>
